@@ -188,6 +188,8 @@ const ReactModalLogin = (props) => {
       e.async = true;
       e.onload = () => {
         window.gapi.load("auth2", () => {
+          // NOTE: OAuth2 'scope' and 'client_id' parameters have moved to initTokenClient().
+          // Cf: https://developers.google.com/identity/oauth2/web/guides/migration-to-gis#the_new_way 
           window.gapi.auth2.init({
             ...props.providers.google.config,
           });
