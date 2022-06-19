@@ -1,5 +1,5 @@
 {
-  "name": "react-modal-login",
+  "name": "@sgu/react-modal-login",
   "version": "2.0.7",
   "description": "A highly customizable react login modal with social buttons",
   "main": "dist/react-modal-login.js",

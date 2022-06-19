@@ -66,6 +66,7 @@ const ReactModalLogin = (props) => {
   }, [props.visible, initialized]);
 
 
+  //sgu: this hook is not needed since we will init f/g at index.js
   useEffect(() => {
     /* reset currentTab after visible is toggled on */
     if (props.visible) {
