@@ -16,6 +16,10 @@ import Loader from "./components/Loader";
 
 import FormWrap from "./components/FormWrap";
 
+// added by sgu
+import GoogleIcon from './components/GoogleIcon';
+import FacebookIcon from './components/FacebookIcon';
+
 /**
  *
  * @param e
@@ -692,3 +696,6 @@ ReactModalLogin.propTypes = {
 };
 
 export default ReactModalLogin;
+
+//added by sgu
+export { FacebookIcon, GoogleIcon }; 
